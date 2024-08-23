@@ -1,11 +1,20 @@
-#Explanation:
+Explanation:
+
 What the Code Does:
 This code implements a simple e-commerce product management system in PHP. It includes classes for products, a repository to manage the collection of products, and a manager to interact with the system (e.g., creating, displaying, updating, and deleting products).
 
-Product Class: Represents a generic product with properties like id, name, price, and category.
-Electronics Class: Inherits from Product and adds a specific property, warrantyPeriod, to handle electronics products.
-ProductRepository: Manages the collection of products, providing methods to add, remove, sort, and filter products.
-ProductManager: Provides a user-facing interface to interact with the product repository, allowing users to perform CRUD operations.
+Product Class: 
+Represents a generic product with properties like id, name, price, and category.
+
+Electronics Class: 
+Inherits from Product and adds a specific property, warrantyPeriod, to handle electronics products.
+
+ProductRepository: 
+Manages the collection of products, providing methods to add, remove, sort, and filter products.
+
+ProductManager: 
+Provides a user-facing interface to interact with the product repository, allowing users to perform CRUD operations.
+
 Why I Wrote This Code:
 The goal was to create a reusable and extensible system for managing different types of products in an e-commerce environment. By using OOP principles, the code is organized, maintainable, and easily extendable to accommodate new product types or additional features.
 
